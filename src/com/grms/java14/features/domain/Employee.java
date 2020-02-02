@@ -13,4 +13,8 @@ public class Employee extends User {
     public void setEmployeeId(String employeeId) {
         this.employeeId = employeeId;
     }
+
+    public String getEmployeeDetails() {
+        return "I am employee";
+    }
 }

@@ -24,6 +24,10 @@ public class Customer extends User {
         this.customerId = customerId;
     }
 
+    public String getCustomerDetails() {
+        return "I am customer";
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
