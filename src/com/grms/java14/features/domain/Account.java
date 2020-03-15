@@ -5,7 +5,7 @@ package com.grms.java14.features.domain;
  */
 public class Account {
     long id;
-    String location;
+    String test;
 
     public long getId() {
         return id;
@@ -16,11 +16,11 @@ public class Account {
     }
 
     public String getName() {
-        return location;
+        return test;
     }
 
     public void setName(String name) {
-        this.location = name;
+        this.test = name;
     }
 
 
