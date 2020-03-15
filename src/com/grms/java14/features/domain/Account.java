@@ -5,7 +5,6 @@ package com.grms.java14.features.domain;
  */
 public class Account {
     long id;
-    String name;
 
     public long getId() {
         return id;
@@ -15,11 +14,5 @@ public class Account {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
