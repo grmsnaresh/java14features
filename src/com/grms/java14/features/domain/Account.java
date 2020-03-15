@@ -20,7 +20,7 @@ public class Account {
     }
 
     public void setName(String name) {
-        this.test = name;
+        this.hyderabad = name;
     }
 
 
