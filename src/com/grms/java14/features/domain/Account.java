@@ -6,6 +6,7 @@ package com.grms.java14.features.domain;
 public class Account {
     long id;
 
+
     public long getId() {
         return id;
     }
